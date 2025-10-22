@@ -8,12 +8,13 @@ import Testimonials from "./Testimonial";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Faq from "./FAQ";
-
+import AboutMe from "./Aboutme";
 export default function App() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <AboutMe/>
       <Portfolio />
       <WhyChooseMe />
       <Pricing />
